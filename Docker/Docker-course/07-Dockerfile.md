@@ -11,7 +11,7 @@ Before we construct our Dockerfile, you need to understand what makes up the fil
 - ENTRYPOINT 
 - ENV 
 - EXPOSE 
-- MAINTAINER
+- MAINTAINER - No longer used. LABEL is the preferred option
 - RUN 
 - USER 
 - VOLUME 
