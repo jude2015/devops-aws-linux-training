@@ -7,9 +7,9 @@ It a text file that carry out all the instructions to build a custom image. Or i
 Before we construct our Dockerfile, you need to understand what makes up the file. This will be a text file, named `Dockerfile`, that includes specific keywords that dictate how to build a specific image. The specific keywords you can use in a file are:
 - FROM
 - ADD 
-- CMD 
-- ENTRYPOINT 
-- ENV 
+- CMD - Command that runs when you start the container. It can be overwriten at runtime
+- ENTRYPOINT - Cammand that runs when you start the container but unlike CMD, this cannot be overwritten
+- ENV - Used to set an Environment variable
 - EXPOSE 
 - MAINTAINER - No longer used. LABEL is the preferred option
 - RUN 
